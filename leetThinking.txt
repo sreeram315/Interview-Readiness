@@ -1,0 +1,77 @@
+
+Leet thinking
+
+Must Do:
+https://leetcode.com/discuss/career/449135/How-to-effectively-use-LeetCode-to-prepare-for-interviews
+https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
+https://seanprashad.com/leetcode-patterns/
+
+
+https://www.interviewbit.com/data-structure-interview-questions/
+https://www.interviewbit.com/operating-system-interview-questions/
+https://www.interviewbit.com/dbms-interview-questions/
+https://www.interviewbit.com/sql-interview-questions/
+https://www.interviewbit.com/networking-interview-questions/
+
+
+
+thinking:
+
+Reaching, travelling 
+- DFS (try all ways, count ways), BFS (shortest dist), 
+Dependencies
+- TOPO Sort
+Summing, Counting, Reaching a sum, Steps taken, min cuts, counting possibilities
+- Recc/Dominos Programming coin change
+Array problems
+- pre sum, post sum, prevMin/Max, postMin/Max, maxToRight/Left
+- Binary search over solution domain. Able to divide solution range given a point on number line.
+- Binary Search over sorted array
+
+Counting inversions in array
+(pairs such a specific property holds)
+- Merge sort and at each merge calculate the inversions and add it to total, or indexed total, in O(n) time- before merging.
+	(https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+
+
+
+If input array is sorted then
+- Binary search
+- Two pointers
+
+If asked for all permutations/subsets then
+- Backtracking/reccurssion
+
+If given a tree/graph then
+- DFS
+- BFS
+
+If given a linked list then
+- Two pointers
+
+If recursion is banned then
+- Stack
+
+If must solve in-place then
+- Swap corresponding values
+- Store one or more different values in the same pointer/variable (modulus method)
+
+If asked for maximum/minumum subarray/subset/options then
+- Dynamic programming
+
+If asked for top/least K items then
+- Heap
+
+If asked for common strings then
+- Map
+- Trie
+
+Else
+- Map/Set for O(1) time & O(n) space
+- Sort input for O(nlogn) time and O(1) space
+
+
+
+
+
+

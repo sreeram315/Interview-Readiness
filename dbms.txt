@@ -1,0 +1,16 @@
+Clustered Index
+
+-	A clustered index determine the physical order of DATA in a table.For this reason a table have only 1 clustered index.
+
+	EX: "dictionary" No need of any other Index, its already Index according to words
+	Nonclustered Index
+
+-	A non clustered(secondary) index is analogous to an index in a Book.The data is stored in one place. The index is storing in another place and the index have pointers to the storage location of the data.For this reason a table have more than 1 Nonclustered index.
+
+	EX: "Chemistry book" at staring there is a separate index to point Chapter location and At the "END" there is another Index pointing the common WORDS location
+
+
+Primary (index on primary key - unique)
+clustered (not necessariry on unique - if we want to group by department, because quesries will be efficient)
+Secondary indexing
+Multilevel Indexing (managing huge n. of indices)
